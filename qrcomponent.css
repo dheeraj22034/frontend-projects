@@ -1,0 +1,40 @@
+body{
+    background-color:  hsl(212, 45%, 89%);
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+           
+            margin: 0;
+
+}
+.box1{
+    background-color:  hsl(0, 0%, 100%);
+    width:300px;
+    border : 2px;
+    margin :3px;
+    padding:5px;
+    position : absolute;
+    top:225px;
+    left:150px;
+    text-align: center;
+
+}
+
+#heading1{
+    text-align: center;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: [Outfit](https://fonts.google.com/specimen/Outfit);
+    
+
+}
+#para{
+     text-align: center;
+}
+.photo{
+    width: 75%;        /* Adjust width percentage based on the parent */
+       height: auto;
+       margin-left: 0.5px;
+       max width:100%;
+}
